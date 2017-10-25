@@ -5,7 +5,7 @@ end
 def create_an_array
   n = 0
   array = Array.new
-  while n < 4
+  until n == 4
     array << n
     n++
   end
