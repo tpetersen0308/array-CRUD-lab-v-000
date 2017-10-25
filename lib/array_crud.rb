@@ -1,5 +1,5 @@
 def create_an_empty_array
-  array = Array.new 
+  array = Array.new
 end
 
 def create_an_array
@@ -7,8 +7,8 @@ def create_an_array
   array = Array.new
   while n < 4
     array << n
-    n++  
-    end
+    n++
+  end
 end
 
 def add_element_to_end_of_array(array, element)
